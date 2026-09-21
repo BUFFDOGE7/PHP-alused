@@ -6,7 +6,7 @@ $n = filter_var($input, FILTER_VALIDATE_INT, [
 ]);
 
 if ($n === false) {
-    echo "Please enter an integer between 1 and 9!" . PHP_EOL;
+    echo "Please enter an integer between 1 and 9" . PHP_EOL;
     exit(1);
 }
 
